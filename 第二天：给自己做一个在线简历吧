@@ -1,0 +1,71 @@
+2018/7/11
+写在开头：之前本来写完了的，但是电脑蓝屏了，全没了心态炸了，gitgub也没个自动保存。当天就重装了WIN10 1803，弄到晚上3点多。
+然后花了点时间重新下软件，改自己合适的配置。今天又重新开始交作业了。
+
+•	HTML是什么，HTML5是什么
+HTML是用来描述网页的一种语言，全称为超文本标记语言。HTML5是在HTML、XHTML的基础上规定的新标准，包括新的元素、语义、标签等等。
+
+•	HTML元素标签、属性都是什么概念？
+HTML不是编程语言而是标记语言，所以要用标记标签来描述网页。
+属性是用来提供HTML标签更多的信息。
+
+•	文档类型是什么概念，起什么作用？
+Web世界中存在许多不同的文档，只有了解文档的类型，浏览器才能正确的显示出文档。
+
+•	meta标签都用来做什么的？
+meta标签在文档开头部分，常用来描述这个文档的属性，比如作者、时间、关键词等等。
+
+•	Web语义化是什么，是为了解决什么问题
+Web语义化是指使用语义恰当的标签，使页面有良好的结构，页面元素有含义，使人和计算机都能够看得懂。
+
+•	链接是什么概念，对应什么标签？
+HTML<a>元素（或锚元素）可以创建一个到其他网页、文件、同一界面内的位置、电子邮件地址或任何其他URL的超链接。
+
+•	常用标签都有哪些，都适合用在什么场景
+<h1>……<h6>标题
+<p> 段落
+<a href=“URL”>XXX XX</a>  target=“_blank” 会在新窗口打开；<a name=“label”>锚（显示的文本）</a>
+<img src=“xxx.jpg> alt=“下载失败的替换文本”；tltle：提示文本 (alt是下载不成功是可以看到该文本；tltlt是鼠标划过时图片显示的文本)
+<br /> 折行/ 回车
+<hr /> 水平线
+<!- - XX XXX - -> 注释
+<span>为了设置单独的样式
+<diiv>相当于一个容器，比如网页的独立板块，用id属性为div提供唯一的名称，必须唯一。
+ 
+•	表单标签都有哪些，对应着什么功能，都有哪些属性
+<form action=“XXX.php” method=“GET/POST”> 定义HTML表单 
+Action为服务器文件，method为传送方式GETt数据在地址栏可见（搜索引擎），POST更安全（密码））
+
+<input type=“text /password” name=“XXX”>  单行文本输入
+<textarea>多行文本输入。Name：为文本框命名，已背后台程序使用（必须要设置name属性，不然不会提交）。Value：为文本输入框设置默认值（提示作用）
+
+<input type=“radio/checkbox value=“值” name=“名称” checked=“checked”/> 单选按钮/复选按钮设置 
+ checked=“checked” 时，该选项被默认选中,同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。
+
+<input type=“submit” 提交按钮
+
+<button type=“button” onclick=“alert”(‘hello world’)”>点击我！</button> ：定义可点击的按钮 ；onclick=“alert” 单击鼠标弹出警告
+
+<fieldset>表单域， 给表单加个大方框
+<legend>给方框加个标题
+
+<select name=“XXX”>下拉列表
+<option value=“XX” selected>XXXX</option> selected属性定义默认的选项
+<datalist>为input规定预定义选项列表
+PS:<input list=“水果”>
+   <datalist id=“水果”>
+<input type=”number” name=”XXX” min=”1” max=”5”>
+
+•	ol, ul, li, dl, dd, dt等这些标签都适合用在什么地方，举个例子
+
+   <ul>   无序列表  （比如新闻）
+       <li>
+   <ol>   有序列表
+        <li>
+<dl>  定义列表 （比如简历）
+   <dt> 
+   <dd>
+   <dt>
+   <dd>
+
+写在最后：可能是没学后端吧，一些类似name的属性 理解的不太好，，感觉用不上。。实际上又是很重要的。 
