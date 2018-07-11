@@ -2,6 +2,71 @@
 写在开头：之前本来写完了的，但是电脑蓝屏了，全没了心态炸了，gitgub也没个自动保存。当天就重装了WIN10 1803，弄到晚上3点多。
 然后花了点时间重新下软件，改自己合适的配置。今天又重新开始交作业了。
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简历</title>
+</head>
+<body>
+	<h2>简历</h2>
+	<p>姓名：张三<br />
+		手机：10102929492<br />
+		邮箱：1937941@132.com<br />
+		学历：百度前端学院<br /></p>
+		
+		<ul>
+			<li>项目经验：
+				<ul>
+					<li>项目时间：2017.1-2017.8</li>
+					<li>项目描述：长沙信凯软件有限公司</li>
+					<li>起止年月：2009-01 ～ 2010-04</li>
+					<li>公司性质： 民营企业</li>
+					<li>所属行业：计算机/互联网/通信/电子</li>
+					<li>担任职位： java程序员</li>
+					<li>工作描述： OA自动化办公系统</li>
+					<li>软件环境：Apache Tomcat 5.0/MySQL /windows2003/jdk1.4.2</li>
+					<li>开发工具：Eclipse，Dreamweaver等开发工具</li>
+				</ul>
+			</li>
+		</ul>
+		<!-- >---------------------------------------------------------------------------<-->
+		<ul>
+			<li>项目描述:
+				<ul>
+					<li>该项目主要针对衡阳市环保局的自动化办公，提高办公效率。
+						<ul>
+							<li>1、项目主要采用当前流行的MVC模式，Struts+Hibernate+Spring框架(B/S)。</li>
+							<li>2、使用的技术： JSP 、Servlet  、JavaBean、、Hibernate、JNDI、XML、Struts、Spring等相关技术。 </li>
+						</ul>
+					</li>
+				</ul>
+
+				
+				<ul>
+					<li>责任描述：
+						　
+						<ul>
+							<li>1、负责技术：相关JavaBean，Servlet，Hibernate持久层的编写，配置，调试等负责部署整个webapplication。</li>
+							　　<li>2、负责功能为个人办公，包括短消息，通讯录等。</li>
+						</ul>
+					</li>
+				</ul>
+
+				<ul>
+					<li>客户关系管理系统(CRM)	
+						　
+						<ul>
+							<li>1.开发环境：Apache Tomcat 5.0/SQLServer/windows2003/jdk1.4.2</li>
+							　<li>2.开发工具：Eclipse ,Dreamweaver等开发工具</li>
+							　<li>3.项目描述：基于J2EE平台，采用MVC设计模式及SSH(Struts+Spring+Hibernate)三个集成框架、B/S模式、SQLServer作为后台数据库。</li>
+							　<li>4.项目责任：本人主要负责营销管理模块及其显示层的开发。</li>
+						</ul>
+					</li>
+				</ul>
+			</body>
+			</html>
+
 •	HTML是什么，HTML5是什么
 HTML是用来描述网页的一种语言，全称为超文本标记语言。HTML5是在HTML、XHTML的基础上规定的新标准，包括新的元素、语义、标签等等。
 
