@@ -1,0 +1,274 @@
+2018/7/27
+对不起，沉迷了下黑魂三。。。
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS目录/style_2.css">
+    <title>简历</title>
+</head>
+<body>
+	 <h1>简历</h1>
+    <main>
+        <section class="item info">
+            <h2 class="info-title">基本信息</h2>
+            <h3 class="info-item-title">姓名</h3>
+            <p class="info-item">张三</p>
+            <h3 class="info-item-title">性别</h3>
+            <p class="info-item">男</p>
+            <h3 class="info-item-title">应聘职位</h3>
+            <p class="info-item">Web前端工程师</p>
+        </section>
+        <section class="item contact">
+            <h2 class="contact-title">联系方式</h2>
+            <h3 class="contact-item-title">手机</h3>
+            <p class="contact-item">1516312351</p>
+            <h3 class="contact-item-title">Email</h3>
+            <p class="contact-item"><a href="www.baidu.com">1252gfhjfg@163.com</a></p>
+            <h3 class="contact-item-title">个人主页</h3>
+            <p class="contact-item"><a href="http://www.baidu.com">Github</a></p>
+        </section>
+        <section class="item ability">
+            <h2 class="ability-title">能力描述</h2>
+            <h3 class="ability-item-title">技术能力</h3>
+            <p class="ability-item">掌握HTML，CSS，JavaScript</p>
+            <h3 class="ability-item-title">综合能力</h3>
+            <p class="ability-item">良好沟通，积极主动，努力勤奋</p>
+        </section>
+        <section class="item education">
+            <h2 class="education-title">教育经历</h2>
+            <h3 class="education-item-title">本科</h3>
+            <p class="education-item">百度前端学院小薇学院</p>
+            <h3 class="education-item-title">研究生</h3>
+            <p class="education-item">百度前端学院斌斌学院</p>
+        </section>
+        <section class="item project">
+            <h2 class="project-title">项目经历</h2>
+            <h3 class="project-item-title">小度小度</h3>
+            <p class="project-item">作为前端工程师参与ABC组件的开发</p>
+            <h3 class="project-item-title">大度大度</h3>
+            <p class="project-item">作为前端工程师参与DEF组件的开发</p>
+        </section>
+
+    </main>
+</body>
+</html>
+ 
+style_1 :
+div {border-style: solid;
+	border-width: thin;
+    width: 29%;
+    border-color: #F0F0F0;
+}
+
+p {font-size: 17px;
+	
+   
+}
+
+
+style_2 :
+html,body {
+	margin:0;
+	height: 100%;
+    width: 100%;
+}
+
+h1 {
+	background-color: #63B8FF;
+	width: 300px;
+	height: 100%;
+	color: white;
+	float: left;
+	font-size: 50px;
+	padding: 50px 0;
+	margin: 0;
+    text-align: center;
+}
+
+main {
+	padding: 20px 320px;
+}
+
+ 
+
+h2 {
+    margin: 20px 0;
+    font-size: 30px;
+}
+.info-item-title,
+.info-item,
+.contact-item-title,
+.contact-item {
+    display: inline-block;
+    font-size: 20px;
+}
+.info-item,
+.contact-item {
+    margin-left: 5px;
+    margin-right: 30px;
+}
+h3,p {
+    margin: 5px 0;
+}
+p {
+    font-size: 18px;
+ }
+ 
+ 
+ style_3 :
+ 
+html,body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+    margin: 0;
+    width: 100%;
+    padding-left: 50px;
+    height: 100px;
+    line-height: 100px;
+    background: #848484;
+    font-size: 50px;
+    color: #fff;
+    box-sizing: border-box;
+}
+.item {
+    height: 200px;
+    border-top: 2px solid #eee;
+    border-bottom: 2px solid #eee;
+}
+h2 {
+    float: left;
+    margin: 0;
+    margin-right: 20px;
+    background: #D6D6D6;
+    text-align: center;
+    line-height: 200px;
+    width: 200px;
+    height: 100%;
+}
+.info-item-title,
+.info-item,
+.contact-item-title,
+.contact-item {
+    display: inline-block ;
+    font-size: 20px;
+}
+.info-item,
+.contact-item {
+    margin-left: 5px;
+    margin-right: 30px;
+}
+h3,p {
+    margin: 10px 0;
+}
+p {
+    font-size: 18px;
+}
+
+CSS盒模型
+一个盒子 从内到外 依次为
+width（宽）和height（高）:设置内容框
+设置大小约束min-width、max-width、min-height、max-height
+padding（内边距）:
+Padding-top 、padding-right、padding-bottom、padding-left
+
+border(边界):
+   简写 border：1px solid black；可以被更详细的属性覆盖
+   Border-top、right、bottom、left设置某一边
+   Border-width、border-style、border-color 厚度、风格、颜色
+   单独设置某一边的三个不同属性： 
+border-top-width、Border-top-style、border-top-color
+
+margin(外边距):
+   margin-top、margin-right、margin-bottom、margin-left
+
+
+高级的框操作
+溢流：绝对值设置了一个框的大小，允许的大小可能不适合放置内容，就会发生溢流。
+我们用overflow属性来控制这种情况发生。
+最常用的值有：auto：当内容过多，溢流的内容隐藏，出现滚动条
+              Hidden：当内容过多，溢流的内容隐藏。
+              Visible：当内容过多，溢流的内容被显示在盒子的外边（默认）
+
+背景裁剪
+框背景由颜色background-color和图片background-image组成，
+背景延伸到内容的边沿可以设置background-clip 来调整。
+.default     { background-clip: border-box;  }
+.padding-box { background-clip: padding-box; }
+.content-box { background-clip: content-box; }
+
+
+轮廓
+Outline：color style width 来简写。 就是边框外面高亮之类
+
+CSS框类型
+用display属性设定元素的框类型
+3个最常见的类型：
+块框（block box）定义是放在其他框之上的框（独占一行），可设置宽高
+行内框（inline box）它随着文档的文字“流动”
+行内块状框（inline-block box）也能流动，能设置宽高，保持块状的完整性，第一行没地方会跑到第二行，不会突破两行
+
+浮动：Float
+Float：left
+Margin-right：30px
+
+首字下沉
+
+多列浮动布局
+两列布局 （用宽度百分比是一个很好的策略，因为它创建了一个流式布局）
+Div:nth-of-type(1){width:48% float:left;}
+Div:nth-of-type(2){width:48% float:right;}
+三列布局
+Div:nth-of-type(1){width:36% float:left;}
+Div:nth-of-type(2){width:30% float:left; margin-left:4%；}
+          Div:nth-of-type(3){width:26%;float:right;}
+
+清除浮动
+Clear：left、right、both。停止任何活动的左活动、右活动、左右活动。
+.clearfix{overflow:auto;}
+浮动问题(一行容不下三列了)
+整个宽度可能难以计算
+最好的办法是改变盒模型
+*{box-sizing:border-box:}
+
+（页脚跟内容连在一起了怎么办）：设置个空的<div class=:clearfix”></div>
+.clearfix {clear: both;}
+设置完了盒子还是连在一起，就把其他各个div设置一个column
+然后.column,footer{} 这样只有列块被格式化。问题解决。
+
+
+
+
+• 盒模型的概念
+所有HTML元素都可以看作盒子，在css中，盒模型是用来设计和布局时使用的。
+CSS盒模型本质上是一个盒子，它包括：实际内容、内边距、边框、外边距。
+盒模型允许我们在其他元素和周元素边框之间的空间放置元素。
+
+• inline、block和inline-block的概念
+Inline行内框，前后不会换行，都在一行内显示，直到排满。可设置宽高。
+Block 块框，被视为单独的一块，会换一行。
+Inline-block行内块状框，不会换行，而且可以设置宽高。
+
+• 内外边距，宽度，高度，box-sizing等属性
+
+Padding内边距、margin外边距、width宽、height高，box-sizing改变盒子模型。
+• 浮动，清除浮动
+Float浮动，clear清除浮动。
+
+• 如何使用浮动进行布局
+两列布局：
+Div:nth-of-type(1){width:48% float:left;}
+Div:nth-of-type(2){width:48% float:right;}
+三列布局：
+Div:nth-of-type(1){width:36% float:left;}
+Div:nth-of-type(2){width:30% float:left; margin-left:4%；}
+    Div:nth-of-type(3){width:26%;float:right;}
+
+
+
+ 
